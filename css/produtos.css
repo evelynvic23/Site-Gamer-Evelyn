@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,300;1,600&family=Ruda:wght@400;500&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+/* Começo do header */
+
+* {
+    margin: 0%;
+    padding: none;
+}
+
+body {
+    background-color: #bebebe;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #b8d5ff;
+    width: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    box-sizing: content-box;
+    height: 150px;
+}
+
+.logo {
+    position: relative;
+    padding-left: 2%;
+}
+
+.paginas {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    margin: 10px;
+
+}
+
+.ss-box {
+    position: relative;
+    padding: 1%;
+    right: 4%;
+    top: 36%;
+    background-color:#f5f5f5;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ss-txt {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    width: 0;
+    padding: 0;
+    transition: 0.5s;
+    color: rgb(132, 0, 255);
+}
+
+.ss-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+
+.ss-box:hover>.ss-txt {
+    width: 200px;
+    padding-left: 15px;
+}
+
+.Home {
+    position: relative;
+    top: 42%;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Home:hover {
+    color: rgb(132, 0, 255);
+}
+
+.Produtos {
+    position: relative;
+    top: 42%;
+    left: 132%;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.Produtos:hover {
+    color: rgb(132, 0, 255);
+}
+
+.Quem {
+    position: relative;
+    top: 42%;
+    left: 163%;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Quem:hover {
+    color: rgb(132, 0, 255);
+}
+
+/* Fim do header */
+
+
+
+
+/* Começo do Main */
+main {
+    background: linear-gradient( #b8d5ff 20%, #f5f5f5 50%, #b8d5ff);
+}
+.barra {
+    background-color: #f5f5f5;
+    height: 160px;
+    text-align: center;
+    /* border: 1px outset black; */
+    position: relative;
+    overflow: hidden;
+}
+
+.imagens-barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.links {
+    margin-right: 60px;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+
+.links:hover{
+    transform: scale(120%);
+}
+
+.links a {
+    text-decoration: none;
+   color: black;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.links a :hover{
+    color: rgb(132, 0, 255);
+}
+
+.links img {
+    margin: 0 auto;
+    width: 70px;
+    justify-content: space-around;
+
+}
+
+.texto1 {
+    font-size: 70px;
+    margin-top: 30px;
+    text-align: center;
+    font-family:'Ruda', sans-serif;
+    font-style:italic;
+    color: #000000;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+
+.imagens-produtos {
+    width: 200px;
+}
+
+.produto1 {
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 7px;
+    height: 340px;
+    background-color: #b8d5ff;
+    box-shadow: 5px 5px 7px #1d1c1d;
+    -moz-box-shadow: 6px 6px 10px #222024;
+    -webkit-box-shadow: 12px 12px 19px black;
+}
+.produto1:hover{
+    transform: scale(150%);
+}
+
+.produto1 p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    color: black;
+}
+.ll{
+    font-size: 22px;
+    font-family: 'Ruda', sans-serif;
+    margin-top: 20px;
+    color: #2a0030;
+    text-shadow: 0 0 5px #2a0030;
+               
+}
+.todos-produtos1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ruda', sans-serif;
+    font-style: oblique;
+    margin-top: 27px;
+    color: #2a0030;
+    text-shadow: 0 0 5px #2a0030;
+}
+
+
+
+
+
+/* Começo do footer */
+footer {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #b8d5ff;
+    bottom: 0;
+    left: 0;
+    position: relative;
+
+}
+
+.inicio {
+    position: relative;
+    top: 9%;
+    color: black;
+    font-size: 30px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+
+}
+
+.nossas {
+    position: relative;
+    top: 9%;
+    color: black;
+    font-size: 30px;
+    padding-right: 6%;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.contatos {
+    position: relative;
+    top: 9%;
+    color: black;
+    font-size: 30px;
+    padding-right: 6%;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.logo2 {
+    position: relative;
+    top: 1%;
+    padding-left: 1%;
+}
+
+.Home2 {
+    position: relative;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    top: 40%;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+
+.Home2:hover {
+    color: rgb(132, 0, 255);
+}
+
+.Produtos2 {
+    position: relative;
+    margin-top: 3%;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.Produtos2:hover {
+    color: rgb(132, 0, 255);
+}
+
+.Quem2 {
+    position: relative;
+
+    top: 78%;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.Quem2:hover {
+    color: rgb(132, 0, 255);
+}
+
+.insta {
+    position: relative;
+
+    top: 13%;
+}
+
+.tw {
+    position: relative;
+
+    top: 15%;
+}
+
+.tec1 {
+    position: relative;
+    left: 35%;
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.tec2 {
+    position: relative;
+    left: 35%;
+    top: 3%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.email {
+    position: relative;
+
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+.telefone {
+    position: relative;
+    top: 2%;
+    color: black;
+    font-size: 17px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+/* Fim do footer */
